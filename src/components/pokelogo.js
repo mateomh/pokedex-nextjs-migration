@@ -3,7 +3,7 @@ import PokeLogoStyles from './styles/pokelogo.module.css';
 
 const PokeLogo = () => (
   <>
-    <img className={PokeLogoStyles.Logo} src={Logo} alt="pokedex_logo" />
+    <img className={PokeLogoStyles.Logo} src={Logo.src} alt="pokedex_logo" />
   </>
 );
 
